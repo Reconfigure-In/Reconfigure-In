@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconfigure</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h1>Navigation</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../">+ Home</a></li>
+                <li><a href="../team.html">+ Team</a></li>
+                <li><a href="../projects.html">+ Projects</a></li>
+                <li><a href="https://www.reddit.com/r/Reconfigure_in/">+ Reddit</a></li>
+                <li><a href="../carrers.html">+ Carrers</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-content">
+            <header>
+                <h1>SmartPOT Overview</h1>
+            </header>
+
+            <section>
+                <h2>Introduction</h2>
+                <p>SmartPOT is an advanced deep learning model designed for real-time recognition tasks. Leveraging
+                    cutting-edge neural network architectures, SmartPOT excels in identifying and categorizing objects,
+                    scenes, or patterns from live data streams. This page provides an overview of SmartPOT, its
+                    functionality, technical details, and performance characteristics.</p>
+            </section>
+
+            <section>
+                <h2>How It Works</h2>
+                <h3>Deep Learning Model Architecture</h3>
+                <p>SmartPOT utilizes a state-of-the-art deep learning architecture to perform recognition tasks. The
+                    model consists of multiple layers, including:</p>
+                <ul>
+                    <li><strong>Convolutional Layers:</strong> Extract features from input data through convolutional
+                        operations.</li>
+                    <li><strong>Pooling Layers:</strong> Reduce dimensionality and retain essential features through
+                        pooling operations.</li>
+                    <li><strong>Fully Connected Layers:</strong> Perform high-level reasoning and classification based
+                        on extracted features.</li>
+                    <li><strong>Normalization Layers:</strong> Stabilize training and improve performance through
+                        normalization techniques.</li>
+                </ul>
+
+                <h3>Real-Time Recognition Process</h3>
+                <p>The real-time recognition process involves:</p>
+                <ol>
+                    <li><strong>Data Acquisition:</strong> Capture live data from sensors or cameras.</li>
+                    <li><strong>Preprocessing:</strong> Preprocess the data to make it suitable for the model (e.g.,
+                        resizing, normalization).</li>
+                    <li><strong>Inference:</strong> Pass the preprocessed data through the SmartPOT model to obtain
+                        predictions.</li>
+                    <li><strong>Postprocessing:</strong> Interpret and display the results, such as object labels or
+                        confidence scores.</li>
+                </ol>
+            </section>
+
+            <section>
+                <h2>Technical Details</h2>
+                <h3>Model Specifications</h3>
+                <p>SmartPOT is built using advanced deep learning techniques and is designed for high accuracy and
+                    efficiency. Key specifications include:</p>
+                <ul>
+                    <li><strong>Architecture:</strong> Convolutional Neural Network (CNN) with additional layers for
+                        enhanced performance.</li>
+                    <li><strong>Training Data:</strong> Trained on a large and diverse dataset to ensure robustness and
+                        generalization.</li>
+                    <li><strong>Framework:</strong> Implemented using popular deep learning frameworks such as
+                        TensorFlow or PyTorch.</li>
+                </ul>
+
+                <h3>System Requirements</h3>
+                <p>To deploy and use SmartPOT, the following system requirements are recommended:</p>
+                <ul>
+                    <li><strong>Hardware:</strong> GPU for accelerated inference (e.g., NVIDIA RTX series).</li>
+                    <li><strong>Software:</strong> Compatible deep learning framework and supporting libraries.</li>
+                    <li><strong>Operating System:</strong> Linux or Windows with appropriate drivers and dependencies.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Performance and Scalability</h2>
+                <h3>Performance Metrics</h3>
+                <p>SmartPOT is optimized for high performance in real-time scenarios. Key performance metrics include:
+                </p>
+                <ul>
+                    <li><strong>Inference Speed:</strong> Time taken to process and classify input data.</li>
+                    <li><strong>Accuracy:</strong> The model’s ability to correctly identify and classify objects or
+                        patterns.</li>
+                    <li><strong>Throughput:</strong> The number of data samples processed per unit time.</li>
+                </ul>
+
+                <h3>Scalability Considerations</h3>
+                <p>SmartPOT is designed to scale with increased data volume and complexity. It can be deployed in
+                    various environments, from edge devices to cloud-based systems, depending on the use case and
+                    performance requirements.</p>
+            </section>
+
+            <section>
+                <h2>Usage</h2>
+                <p>To use SmartPOT, follow these steps:</p>
+                <ol>
+                    <li><strong>Prepare the Environment:</strong> Set up the required software and hardware.</li>
+                    <li><strong>Load the Model:</strong> Load the pre-trained SmartPOT model using the provided APIs or
+                        scripts.</li>
+                    <li><strong>Provide Input Data:</strong> Feed live data into the model for processing.</li>
+                    <li><strong>Retrieve Results:</strong> Obtain and interpret the model’s predictions.</li>
+                </ol>
+
+                <h3>Example Code</h3>
+                <p>Here is a basic example of how to use SmartPOT in Python:</p>
+                <pre><code>import smartpot
+
+# Load the pre-trained model
+model = smartpot.load_model('path/to/model')
+
+# Process live data
+data = capture_live_data()
+preprocessed_data = preprocess(data)
+predictions = model.predict(preprocessed_data)
+
+# Display results
+print(predictions)</code></pre>
+            </section>
+
+            <section>
+                <h2>Example Applications</h2>
+                <p>SmartPOT can be applied in various real-time recognition scenarios, such as:</p>
+                <ul>
+                    <li><strong>Object Detection:</strong> Identifying and categorizing objects in video streams.</li>
+                    <li><strong>Facial Recognition:</strong> Recognizing and verifying individuals based on facial
+                        features.</li>
+                    <li><strong>Scene Analysis:</strong> Understanding and classifying scenes from live camera feeds.
+                    </li>
+                </ul>
+            </section>
+
+
+            <p>&copy; 2024 SmartPOT Project</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
