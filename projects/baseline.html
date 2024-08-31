@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseline | Reconfigure</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="flex">
+            <h1>Baseline</h1>
+            <div class="links">
+                <a href="../">Home</a> |
+                <a href="../join.html">Join Us</a>
+            </div>
+        </div>
+        <p class="tagline">Lighting Speed Encryption</p>
+        <p>The Baseline project is a C program designed to implement a fundamental encryption algorithm. This algorithm
+            demonstrates core cryptographic techniques, including key scheduling, permutation, XOR operations, and
+            nonlinear transformations to securely encode input strings. This document offers a comprehensive overview of
+            the algorithm's design, operational complexity, and additional technical insights.</p>
+        <center>
+            <a href="https://baseline-btn5.onrender.com/" style="font-weight: bold;">Try Live Demo</a>
+        </center>
+
+        <h2>Algorithm Description</h2>
+        <h3>Key Schedule Generation</h3>
+        <p>The key schedule in this encryption algorithm is established using two 32-bit keys and a configurable number
+            of rounds. For each round, a specific byte value is computed based on the provided keys and the round
+            number. This byte value plays a crucial role in the permutation and XOR operations performed during the
+            encryption process, ensuring a robust transformation of the input data. </p>
+        <h2>Complexity Analysis</h2>
+        <h3>Time Complexity</h3>
+        <p>The time complexity of the encryption algorithm is O(n * r), where n represents the size of the input array
+            and r denotes the number of rounds. This complexity arises because each round requires processing the entire
+            array, and the total number of rounds influences the overall time required for encryption. </p>
+        <h3>Space Complexity</h3>
+        <p>The space complexity of the algorithm is O(n), accounting for the storage needs of the input array, the
+            encrypted output array, the random addition array, and the key schedule. This complexity assumes that the
+            size of these arrays scales proportionally with n, the size of the input data. </p>
+
+        <h3>Screenshots</h3>
+        <img src="images/encryption_screenshot.png" alt="Encryption">
+        <img src="images/decryption_screenshot.png" alt="Decryption">
+    </div>
+</body>
+
+</html>

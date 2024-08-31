@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project | Reconfigure</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Projects | Reconfigure</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .content {
+            width: 800px;
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .content {
+                width: auto;
+            }
+        }
+    </style>
 </head>
-
 <body>
-    <div class="nav">
-        <div class="logo">
-            <h1>Navigation</h1>
+    <div class="content">
+        <div class="flex">
+            <h1>Projects</h1>
+            <div class="links">
+                <a href="/">Home</a> |
+                <a href="publications.html">Publications</a> |
+                <a href="join.html">Join Us</a>
+            </div>
         </div>
-        <div class="menu">
-            <ul>
-                <li><a href="/">+ Home</a></li>
-                <li><a href="team.html">+ Team</a></li>
-                <li><a href="projects.html">+ Projects</a></li>
-                <li><a href="https://www.reddit.com/r/Reconfigure_in/">+ Reddit</a></li>
-                <li><a href="careers.html">+ Careers</a></li>
-            </ul>
-        </div>
-    </div>
-
-    <div class="main">
-        <div class="main-content">
-            <h1>Overview Projects</h1>
-            <ul>
-                <li>
-                    <strong><a href="projects/baseline.html">Baseline</a></strong><br>
-                </li>
-                <li>
-                    <strong><a href="projects/smartPot.html">SmartPOT</a></strong><br>
-                </li>
-                <li>
-                    <strong><a href="projects/radar.html">Radar</a></strong><br>
-                </li>
-                <li>
-                    <strong><a href="projects/insightflow.html">InsightFlow</a></strong><br>
-                </li>
-            </ul>
-        
-            <h1>Get in Touch</h1>
-            <p>Interested in learning more about our projects or exploring how we can collaborate on your next big idea? Contact us at <a href="mailto:ayush.th2002@gmail.com">ayush.th2002@gmail.com</a> to discuss your project needs and how Reconfigure can help bring your vision to life.</p>
-        </div>
-        
+        <p>Our research group is currently working on the following projects:</p>
+        <ul>
+            <li><a href="projects/baseline.html">Baseline - Light Speed Encryption Technology</a></li>
+            <li><a href="projects/comming_soon.html">Radar - Universal Resource Locator</a></li>
+            <li><a href="projects/comming_soon.html">Runtime Verification of Embedded Systems</a></li>
+        </ul>
     </div>
 </body>
-
 </html>
