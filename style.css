@@ -22,10 +22,6 @@ body {
     align-items: baseline;
 }
 
-.flex img{
-    width: 30px; margin-right: 5px;
-}
-
 h1 {
     line-height: 1;
     margin-bottom: 0;
