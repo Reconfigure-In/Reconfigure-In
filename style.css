@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     color: black;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -27,7 +31,6 @@ h1 {
     margin-bottom: 0;
 }
 
-
 li,
 a,
 p {
@@ -36,7 +39,7 @@ p {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .links {
@@ -50,7 +53,7 @@ img {
 }
 
 /* Mobile Styles */
-@media (max-width: 600px) {
+@media (max-width: 720px) {
 
     .content {
         padding: 15px;
@@ -61,11 +64,12 @@ img {
         display: block;
     }
 
-    h1{
+    h1 {
         margin-bottom: 10px;
     }
 
     li,
+    a,
     p {
         font-size: 14px;
     }
