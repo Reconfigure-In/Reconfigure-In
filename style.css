@@ -15,7 +15,6 @@ body {
 
 .content {
     max-width: 820px;
-    margin: 10vh auto;
     padding: 20px;
 }
 
@@ -25,6 +24,10 @@ a{
 
 p {
     text-align: justify;
+}
+
+li{
+    margin: 5px;
 }
 
 img {
